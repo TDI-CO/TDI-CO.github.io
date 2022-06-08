@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif', 'Poppins';
+}
+
+/* Menu */
+
+#up {
+    position: fixed;
+    bottom: 10px;
+    color: brown;
+}
+
+.img-up {
+    position: relative;
+    right: -330px;
+    width: 80px;
+    transition: all 300ms ease;
+}
+
+.img-up:hover {
+    bottom: -3px;
+    width: 105px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a141d;
+    z-index: 10000;
+}
+
+.letras {
+    position: absolute;
+    top: -20px;
+    width: 90px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #efefef;
+    border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+header ul li a:hover, header ul li a.active {
+    background: #193c63;
+    color: #fff;
+}
+
+/* Portada */
+
+.Portada {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./multimedia/portada.png);
+    background-size: cover;
+    display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+    filter: blur(6px);
+    background-blend-mode: multiply;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban {
+    position: absolute;
+    width: 500px;
+    top: 125px;
+}
+
+.separador {
+    position: absolute;
+    width: 100%;
+    top: 25vh;
+}
+
+h1 {
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 42px;
+    color: #193c63;
+}
+
+.nosotros {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+}
+
+#txt {
+    color: #094b65;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 60%;
+    text-align: justify;
+}
+
+.logo-vertical {
+    position: absolute;
+    top: 13vh;
+    right: 10vh;
+    width: 350px;
+}
+
+#Comunidad {
+    position: absolute;
+    width: 100%;
+    top: 170vh;
+    height: 100vh;
+    background-color: #193c63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hacker {
+    position: absolute;
+    left: -50px;
+    width: 600px;
+    z-index: 100;
+}
+
+.text-comunidad {
+    position: absolute;
+    top: 150px;
+    text-align: left;
+    right: 150px;
+    width: 500px;
+}
+
+h3 {
+    font-size: 3em;
+    color: #61ed46;
+}
+
+.c2omunity {
+    position: absolute;
+    width: 560px;
+    font-size: 1.5em;
+    color: #fff;
+}
+/* Footer */
+
+.pie-pagina {
+    position: absolute;
+    top: 270vh;
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box .figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box .figure img {
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.pie-pagina .grupo-1 #box h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 #box p {
+    margin-right: 10px;
+    text-align: justify;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .redes a {
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .redes a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+
+    #up {
+        top: 900px;
+    }
+    
+    .img-up {
+        right: -10px;
+
+    }
+
+    li {
+        visibility: hidden;
+    }
+
+    .letras {
+        top: -10px;
+        left: 150px;
+    }
+
+    .Portada {
+        filter: blur(3px);
+    }
+
+    .ban {
+        top: 30vh;
+        width: 400px;
+    }
+    .separador {
+        top: 73vh;
+    }
+
+    .nosotros {
+        background-color: #fff;
+    }
+    
+    .logo-vertical {
+        right: -20px;
+        top: 200px;
+        width: 200px;
+    }
+
+    .text-comunidad {
+        left: 20px;
+    }
+
+    .hacker {
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        width: 300px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .c2omunity {
+        width: 330px;
+        font-size: 1em;
+    }
+
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .pie-pagina .grupo-1 .box .figure img {
+        margin-left: 10px;
+    }
+    
+}
