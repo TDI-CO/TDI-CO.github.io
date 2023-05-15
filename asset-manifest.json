@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TDI-CO.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/TDI-CO.github.io/static/js/main.013b44dc.js",
+    "static/js/787.c11581ea.chunk.js": "/TDI-CO.github.io/static/js/787.c11581ea.chunk.js",
+    "static/media/logo.svg": "/TDI-CO.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TDI-CO.github.io/index.html",
+    "main.073c9b0a.css.map": "/TDI-CO.github.io/static/css/main.073c9b0a.css.map",
+    "main.013b44dc.js.map": "/TDI-CO.github.io/static/js/main.013b44dc.js.map",
+    "787.c11581ea.chunk.js.map": "/TDI-CO.github.io/static/js/787.c11581ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.013b44dc.js"
+  ]
+}
