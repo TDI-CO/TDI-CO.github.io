@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TDI-CO.github.io/static/css/main.6862f862.css",
-    "main.js": "/TDI-CO.github.io/static/js/main.d6797497.js",
-    "static/js/787.c11581ea.chunk.js": "/TDI-CO.github.io/static/js/787.c11581ea.chunk.js",
-    "static/media/coding.jpg": "/TDI-CO.github.io/static/media/coding.0cbec54f37f522ea1a04.jpg",
-    "static/media/ban.png": "/TDI-CO.github.io/static/media/ban.616bb134d59cec09acca.png",
-    "index.html": "/TDI-CO.github.io/index.html",
-    "main.6862f862.css.map": "/TDI-CO.github.io/static/css/main.6862f862.css.map",
-    "main.d6797497.js.map": "/TDI-CO.github.io/static/js/main.d6797497.js.map",
-    "787.c11581ea.chunk.js.map": "/TDI-CO.github.io/static/js/787.c11581ea.chunk.js.map"
+    "main.css": "/static/css/main.c390f3bb.css",
+    "main.js": "/static/js/main.bca44caa.js",
+    "static/js/787.c11581ea.chunk.js": "/static/js/787.c11581ea.chunk.js",
+    "static/media/coding.jpg": "/static/media/coding.0cbec54f37f522ea1a04.jpg",
+    "static/media/ban.png": "/static/media/ban.616bb134d59cec09acca.png",
+    "index.html": "/index.html",
+    "main.c390f3bb.css.map": "/static/css/main.c390f3bb.css.map",
+    "main.bca44caa.js.map": "/static/js/main.bca44caa.js.map",
+    "787.c11581ea.chunk.js.map": "/static/js/787.c11581ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6862f862.css",
-    "static/js/main.d6797497.js"
+    "static/css/main.c390f3bb.css",
+    "static/js/main.bca44caa.js"
   ]
 }
